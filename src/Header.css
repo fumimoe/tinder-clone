@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    /*線を入れることで立体感を出す*/
+    border-bottom: 1px solid #f9f9f9;
+    /* tinderのロゴだけ↑に上がってる。それをcenterで指定することでheaderの高さの中の中央に揃えてくれる */
+    align-items: center;
+}
+
+.header__logo{
+    height: 30px;
+    /* 幅を指定した中でアスペクト比を保ちながら表示することができる */
+    /* 言わ有る画像のサイズが違くても指定してるのでみんな同じサイズになる */
+    object-fit: contain;
+}
+
+.header__icon{
+    padding: 20px;
+}
