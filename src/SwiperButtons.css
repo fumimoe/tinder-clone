@@ -14,34 +14,34 @@
 
 .swiperButtons__repeat{
     /* /強制的に幅を広げる */
-    padding: 3vw !important;
+    padding: 2vw !important;
     /* 色を指定する */
     color: rgb(233, 164, 104) !important;
 }
 .swiperButtons__left{
     /* /強制的に幅を広げる */
-    padding: 3vw !important;
+    padding: 2vw !important;
     /* 色を指定する */
     color: rgb(243, 137, 105) !important;
 }
 
 .swiperButtons__star{
     /* /強制的に幅を広げる */
-    padding: 3vw !important;
+    padding: 2vw !important;
     /* 色を指定する */
     color: rgb(112, 212, 243) !important;
 }
 
 .swiperButtons__right{
     /* /強制的に幅を広げる */
-    padding: 3vw !important;
+    padding: 2vw !important;
     /* 色を指定する */
     color: rgb(117, 236, 157) !important;
 }
 
 .swiperButtons__lightning{
     /* /強制的に幅を広げる */
-    padding: 3vw !important;
+    padding: 2vw !important;
     /* 色を指定する */
     color: rgb(230, 83, 225) !important;
 }

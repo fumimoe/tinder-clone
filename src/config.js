@@ -30,23 +30,7 @@ const firebaseConfig = firebase.initializeApp({
   console.log(process.env.REACT_APP_API_KEY)
   console.log(process.env.REACT_APP_AUTH_DOMAIN)
   console.log(process.env.REACT_APP_DATABASE_URL)
-/* eslint-disable */
 
-
-  // const dotenv = require('dotenv');
-  // const result = dotenv.config();
-  // console.log(result.parsed)
-
-
-  //  const firebaseConfig = {
-  //   apiKey: "AIzaSyADK8fOLoMM-dHGUDhyfhKgHiRquYoFEv4",
-  //   authDomain: "tinder-clone-a3498.firebaseapp.com",
-  //   projectId: "tinder-clone-a3498",
-  //   storageBucket: "tinder-clone-a3498.appspot.com",
-  //   messagingSenderId: "799314726405",
-  //   appId: "1:799314726405:web:932b90fee85bb8f8d4566c",
-  //   measurementId: "G-YWH6G28JVL"
-  // };
 
 
 

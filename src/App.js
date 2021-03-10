@@ -8,8 +8,9 @@ import SwiperButtons from './SwiperButtons';
 const App = () => {
   return (
     <div className="App">
-      <Header />
+
       <Router>
+      <Header />
         <Switch>
           <Route  path="/chat">
             <h2>chat画面です</h2>
