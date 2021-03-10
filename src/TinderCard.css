@@ -1,0 +1,36 @@
+.card {
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 80vh;
+    border-radius: 20px;
+    /* 画像全体表示することができる */
+    background-size: cover;
+    /* 画像のどこをうす */
+    background-position:center;
+    
+    /* box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3); */
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+.card > h3{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    right: 10px;
+    font-size: 36px;
+}
+.tinderCards__cardContainer{
+    display: flex;
+    /* 画像を中央揃えにしてる */
+    justify-content: center;
+    /* vhはviewpointの100分の1であるviewpointはデフォルトで1000です */
+    margin-top: 5vh;
+
+}
+
+.swipe{
+    /* cardでrelativeを指定してるから重ねて表示することができる */
+    position: absolute;
+}
