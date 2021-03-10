@@ -9,11 +9,17 @@ const TinderCards = () => {
   const [people, setPeople] = useState([]);
 
     useEffect(() => {
-        db.collection('people').onSnapshot((snapshot) =>(
+       const unsubscribe =  db.collection('people').onSnapshot((snapshot) =>(
             // peopleの全ての情報がsnapshot.docs()に入ってる
             // dataはmapで回してるのはnameとurl
             setPeople(snapshot.docs.map((doc) => doc.data()))
-        ))
+        ));
+
+        return() => {
+          unsubscribe();
+        }
+
+
     },[])
     // 鈴木誠也 https://i.daily.jp/baseball/carp/2020/06/20/Images/f_13440661.jpg
     // 柳田 https://sp.softbankhawks.co.jp/cmn/pl_img/news/2020/07/00003534_01.jpg
