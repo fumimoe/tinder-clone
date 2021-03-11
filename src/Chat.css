@@ -1,0 +1,61 @@
+.chat {
+  display: flex;
+  /* alignを指定することで水平に真ん中になる */
+  align-items: center;
+  justify-content: space-between;
+  /* 両サイドにスペースを作る */
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+a {
+  text-decoration: none;
+  /* 文字の色を継承する */
+  color: inherit;
+}
+
+.chat__details {
+  /* 伸ばすというイメージ→余白を埋めようとす */
+  /* 結果的範囲を伸ばして左寄せになる（デフォルト） */
+  flex: 1;
+}
+.chat__details > p {
+  color: gray;
+}
+
+.chat__image {
+  margin-right: 20px;
+}
+.chat__timestamp {
+  color: lightgray;
+}
+
+.chatScreen__input {
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgb(207, 206, 206);
+}
+
+.chatScreen__inputField{
+    flex: 1;
+    border:none;
+    padding: 5px;
+}
+
+.chatScreen__inputButton{
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+    color: rgb(238, 93, 49);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chatScreen__inputButton:hover{
+    opacity: 0.7;
+}

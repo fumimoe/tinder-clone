@@ -8,12 +8,12 @@
 }
 
 .header__logo{
-    height: 30px;
+    height: 40px;
     /* 幅を指定した中でアスペクト比を保ちながら表示することができる */
     /* 言わ有る画像のサイズが違くても指定してるのでみんな同じサイズになる */
     object-fit: contain;
 }
 
 .header__icon{
-    padding: 20px;
+    padding: 30px;
 }
